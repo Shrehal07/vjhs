@@ -8,19 +8,13 @@
         <div>
             <h1><a href="/">Django Girls Blog</a></h1>
         </div>
-
-        <div>
-            <p>published: 14.06.2014, 12:14</p>
-            <h2><a href="">My first post</a></h2>
-            <h3>Robert Downey Jr.</h3>
-            <p>Robert John Downey Jr. (born April 4, 1965)[1] is an American actor. His career has included critical and popular success in his youth, followed by a period of substance abuse and legal difficulties, and a resurgence of commercial success in middle age. For three consecutive years from 2012 to 2015, Downey topped the Forbes list of Hollywood's highest-paid actors, and in 2008, Time magazine named him one of the 100 most influential people in the world.[2][3] His films have grossed over $5.3 billion in North America and over $12.9 billion worldwide, making Downey the second highest-grossing domestic box-office star and the highest-grossing worldwide box-office star of all time.[4][5] </p>
-        </div>
-
-        <div>
-            <p>published: 14.06.2014, 12:14</p>
-            <h2><a href="">My second post</a></h2>
-            <h3>Chris Evans</h3>
-            <p>Christopher Robert Evans[1] (born June 13, 1981)[2] is an American actor. Evans is known for his superhero roles as the Marvel Comics characters Captain America in the Marvel Cinematic Universe and Human Torch in Fantastic Four (2005) and its 2007 sequel.Evans began his career on the 2000 television series Opposite Sex, and in addition to his work in superhero films, he has featured in such films as Not Another Teen Movie (2001), Sunshine (2007), Scott Pilgrim vs. the World (2010), Snowpiercer (2013), and Gifted (2017). In 2014, he made his directorial debut with the drama film Before We Go, in which he also starred.[3] Evans made his Broadway debut in a 2018 production of Lobby Hero. </p>
-        </div>
+        
+        {% for post in posts %}
+            <div>
+                <p>published: {{ post.published_date }}</p>
+                <h2><a href="">{{ post.title }}</a></h2>
+                <p>{{ post.text|linebreaksbr }}</p>
+            </div>
+        {% endfor %}
     </body>
 </html>
