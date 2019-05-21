@@ -1,26 +1,134 @@
+{% load static %}
 <html>
     <head>
         <title>Django Girls blog</title>
         <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
         <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css">
+        <link href="//fonts.googleapis.com/css?family=Lobster&subset=latin,latin-ext" rel="stylesheet" type="text/css">
+        <link rel="stylesheet" href="{% static 'css/blog.css' %}">
     </head>
     <body>
-        <div>
+        <div class="page-header">
             <h1><a href="/">Django Girls Blog</a></h1>
+       </div>
+       <div id="buttons">
+               <ul>
+                       <li><a  href="#RDJ">Iron Man</a></li>
+                       <li><a  href="#Caps">Captain</a></li>
+                       <li><a  href="#Th">Thor</a></li>
+                       <li><a  href="#Hulk">Hulk</a></li>
+                       <li><a  href="#Widow">Widow</a></li>
+                       <li><a  href="#Strange">Strange</a></li>
+                       <li><a  href="#Hawkeye">Hawkeye</a></li>
+                       <li><a  href="#Antman">Antman</a></li>
+                       <li><a  href="#loki">Loki</a></li>
+                       <li><a  href="#Falcon">Falcon</a></li>
+               </ul>
+        </div><br />
+        <div class="post">
+        <br><h1>My First Post</h1>    
+        <h2><a name="RDJ"></a>Robert Downey Jr.</h2>
+                <p>Robert John Downey Jr. (born April 4, 1965)[1] is an American actor. His career has included critical and popular success in his youth, followed by a period of substance abuse and legal difficulties, and a resurgence of commercial success in middle age. For three consecutive years from 2012 to 2015, Downey topped the Forbes list of Hollywood's highest-paid actors, and in 2008, Time magazine named him one of the 100 most influential people in the world.[2][3] His films have grossed over $5.3 billion in North America and over $12.9 billion worldwide, making Downey the second highest-grossing domestic box-office star and the highest-grossing worldwide box-office star of all time.[4][5]
+    
+                    Making his acting debut at the age of five, appearing in his father's film Pound (1970), Downey appeared in roles associated with the Brat Pack, such as the teen sci-fi comedy Weird Science (1985) and the drama Less Than Zero (1987). He starred as the title character in the 1992 film Chaplin, for which he earned a nomination for the Academy Award for Best Actor and won the BAFTA Award for Best Actor in a Leading Role. After being released in 2000 from the California Substance Abuse Treatment Facility and State Prison where he was incarcerated on drug charges, Downey joined the cast of the TV series Ally McBeal playing Calista Flockhart's love interest. The role earned him a Golden Globe Award. His character was terminated when Downey was fired after two drug arrests in late 2000 and early 2001. After his last stay in a court-ordered drug treatment program, Downey achieved sobriety.
+                    
+                    Initially, bond completion companies would not insure Downey for roles in feature films. Mel Gibson, who had been a close friend to Downey since both had co-starred in Air America, paid the insurance bond for the 2003 film The Singing Detective.[6] Downey's performance in that film paved the way for his return to feature films including a role in the black comedy crime film Kiss Kiss Bang Bang (2005), the mystery thriller Zodiac (2007), and the satirical action comedy Tropic Thunder (2008); for the latter he was nominated for an Academy Award for Best Supporting Actor. Downey went on to star as the Marvel Comics superhero Iron Man in ten films within the Marvel Cinematic Universe, beginning with Iron Man (2008) and concluding with Avengers: Endgame (2019). He has also played the title character in Guy Ritchie's Sherlock Holmes (2009), which earned him his second Golden Globe win, and its sequel (2011). </p>
         </div>
-
-        <div>
-            <p>published: 14.06.2014, 12:14</p>
-            <h2><a href="">My first post</a></h2>
-            <h3>Robert Downey Jr.</h3>
-            <p>Robert John Downey Jr. (born April 4, 1965)[1] is an American actor. His career has included critical and popular success in his youth, followed by a period of substance abuse and legal difficulties, and a resurgence of commercial success in middle age. For three consecutive years from 2012 to 2015, Downey topped the Forbes list of Hollywood's highest-paid actors, and in 2008, Time magazine named him one of the 100 most influential people in the world.[2][3] His films have grossed over $5.3 billion in North America and over $12.9 billion worldwide, making Downey the second highest-grossing domestic box-office star and the highest-grossing worldwide box-office star of all time.[4][5] </p>
-        </div>
-
-        <div>
-            <p>published: 14.06.2014, 12:14</p>
-            <h2><a href="">My second post</a></h2>
-            <h3>Chris Evans</h3>
-            <p>Christopher Robert Evans[1] (born June 13, 1981)[2] is an American actor. Evans is known for his superhero roles as the Marvel Comics characters Captain America in the Marvel Cinematic Universe and Human Torch in Fantastic Four (2005) and its 2007 sequel.Evans began his career on the 2000 television series Opposite Sex, and in addition to his work in superhero films, he has featured in such films as Not Another Teen Movie (2001), Sunshine (2007), Scott Pilgrim vs. the World (2010), Snowpiercer (2013), and Gifted (2017). In 2014, he made his directorial debut with the drama film Before We Go, in which he also starred.[3] Evans made his Broadway debut in a 2018 production of Lobby Hero. </p>
-        </div>
+                 
+            <div class="post">
+                    <h1>My Second Post</h1>   
+                <h2><a name="Caps"></a>Chris Evans</h2>
+                <p>Christopher Robert Evans[1] (born June 13, 1981)[2] is an American actor. Evans is known for his superhero roles as the Marvel Comics characters Captain America in the Marvel Cinematic Universe and Human Torch in Fantastic Four (2005) and its 2007 sequel.
+    
+                        Evans began his career on the 2000 television series Opposite Sex, and in addition to his work in superhero films, he has featured in such films as Not Another Teen Movie (2001), Sunshine (2007), Scott Pilgrim vs. the World (2010), Snowpiercer (2013), and Gifted (2017). In 2014, he made his directorial debut with the drama film Before We Go, in which he also starred.[3] Evans made his Broadway debut in a 2018 production of Lobby Hero. Christopher Robert Evans[1] (born June 13, 1981)[2] is an American actor. Evans is known for his superhero roles as the Marvel Comics characters Captain America in the Marvel Cinematic Universe and Human Torch in Fantastic Four (2005) and its 2007 sequel.
+    
+                        Evans began his career on the 2000 television series Opposite Sex, and in addition to his work in superhero films, he has featured in such films as Not Another Teen Movie (2001), Sunshine (2007), Scott Pilgrim vs. the World (2010), Snowpiercer (2013), and Gifted (2017). In 2014, he made his directorial debut with the drama film Before We Go, in which he also starred.[3] Evans made his Broadway debut in a 2018 production of Lobby Hero. </p>
+            </div>
+            <div class="post">
+                    <h1>My Third Post</h1>   
+                <h2><a name="Th"></a>Chris Hemsworth</h2>
+                <p>Christopher Hemsworth[1] (born 11 August 1983)[2] is an Australian actor. He rose to prominence playing Kim Hyde in the Australian TV series Home and Away (2004–07). Hemsworth has also appeared in the science fiction action film Star Trek (2009), the thriller adventure A Perfect Getaway (2009), the horror comedy The Cabin in the Woods (2012), the dark-fantasy action film Snow White and the Huntsman (2012), the war film Red Dawn (2012), and the biographical sports drama film Rush (2013).
+    
+                        In the Marvel Cinematic Universe he portrays the role of Thor, beginning in Thor (2011), and also appearing in The Avengers (2012), Thor: The Dark World (2013), Avengers: Age of Ultron (2015), Doctor Strange (2016), Thor: Ragnarok (2017), Avengers: Infinity War (2018) and Avengers: Endgame (2019).
+                        
+                        In 2015, he starred in the action thriller film Blackhat, had a comedic role in the fifth installment of National Lampoon's Vacation series, Vacation, and headlined the biographical thriller film In the Heart of the Sea.[3] The following year, Hemsworth had a supporting role in Sony's reboot of Ghostbusters.[4] In 2019, he will star in the spin-off of the Men in Black film series, Men in Black: International. </p>
+            </div>
+            <div class="post">
+                    <h1>My Fourth Post</h1> 
+                <h2><a name="Hulk"></a>Mark Ruffalo</h2>
+                <p>Mark Alan Ruffalo (/ˈrʌfəloʊ/; born November 22, 1967) is an American actor and producer. He made his screen debut in an episode of CBS Summer Playhouse (1989), followed by minor film roles, and was part of the original cast of This Is Our Youth (1996). Following roles were in 13 Going on 30 (2004), Eternal Sunshine of the Spotless Mind (2004), Zodiac (2007) and What Doesn't Kill You (2008). In 2010, he starred in the psychological thriller Shutter Island and the comedy-drama The Kids Are All Right. For the latter, he received nominations for the SAG Award, BAFTA Award, and the Academy Award for Best Supporting Actor. He also co-starred in the mystery films Now You See Me and Now You See Me 2 as FBI Special Agent Dylan Rhodes.[1]
+    
+                        Ruffalo gained international prominence by portraying the Marvel Comics character Bruce Banner / Hulk in the Marvel Cinematic Universe, beginning with The Avengers (2012). He reprised the role in Iron Man 3 (2013), Avengers: Age of Ultron (2015), Thor: Ragnarok (2017), Avengers: Infinity War (2018), and Avengers: Endgame (2019).
+                        
+                        He starred in and was an executive producer of the 2014 television drama film The Normal Heart, for which he won the Primetime Emmy Award for Outstanding Television Movie (as a producer) and he won the Screen Actors Guild Award for Best Actor in a TV Movie. The same year, he portrayed Dave Schultz in Foxcatcher, for which he was nominated for awards, including a Golden Globe and an Academy Award for Best Supporting Actor. In 2015, he was nominated for the Golden Globe Award for Best Actor – Motion Picture Musical or Comedy for Infinitely Polar Bear and also received BAFTA and Academy Award nominations for his role in the drama Spotlight. </p>
+            </div>
+            <div class="post">
+                    <h1>My Fifth Post</h1>
+                <h2><a name="Widow"></a>Scarlett Johansson</h2>
+                <p>
+                        Scarlett Ingrid Johansson (/dʒoʊˈhænsən/; born November 22, 1984) is an American actress and singer. Johansson is the world's highest-paid actress, has made multiple appearances in the Forbes Celebrity 100, and has a star on the Hollywood Walk of Fame. She aspired to be an actress from a young age, and first appeared on stage in an Off-Broadway play as a child. Johansson made her film debut in the fantasy comedy North (1994), and was nominated for an Independent Spirit Award for Manny & Lo (1996). She gained further recognition for her work in The Horse Whisperer (1998) and Ghost World (2001).
+    
+                        Johansson shifted to adult roles in 2003 with her performances in Lost in Translation, which won her a BAFTA Award for Best Actress, and Girl with a Pearl Earring. She was nominated for four Golden Globe Awards for these films, and for playing an estranged teenager in the drama A Love Song for Bobby Long (2004), and a seductress in the psychological thriller Match Point (2005). Other films during this period include the mystery thriller The Prestige (2006) and the comedy-drama Vicky Cristina Barcelona (2008). She also released two albums: Anywhere I Lay My Head (2008) and Break Up (2009), both of which charted on the Billboard 200.
+                        
+                        In 2010, Johansson debuted on Broadway in a revival of A View from the Bridge, which won her a Tony Award for Best Featured Actress. Later that year, she began portraying Black Widow in the Marvel Cinematic Universe. She voiced an intelligent computer operating system in the 2013 comedy-drama Her, played an alien in the 2013 science fiction film Under the Skin and a woman with psychokinetic abilities in the 2014 science fiction action Lucy. She was the highest-grossing actress of 2016, and is also the highest-grossing actress of all time in North America in nominal dollar terms.
+                        
+                        As a public figure, Johansson is a Hollywood sex symbol. She is a prominent celebrity brand endorser, and also supports various charities and causes. She has been married twice, to the Canadian actor Ryan Reynolds from 2008 to 2011 and the French businessman Romain Dauriac, with whom she has a daughter, from 2014 to 2017. 
+                </p>
+            </div>
+            <div class="post">
+                    <h1>My Sixth Post</h1>
+                <h2><a name="Strange"></a>Benedict Cumberbatch</h2>
+                <p>
+                        Benedict Timothy Carlton Cumberbatch CBE (born 19 July 1976[2]) is an English actor who has performed in film, television, theatre and radio. A graduate of the Victoria University of Manchester, he continued his training at the London Academy of Music and Dramatic Art, obtaining a Master of Arts in Classical Acting. He first performed at the Open Air Theatre, Regent's Park in Shakespearean productions and made his West End debut in Richard Eyre's revival of Hedda Gabler in 2005. Since then he has starred in the Royal National Theatre productions After the Dance (2010) and Frankenstein (2011). In 2015, he played William Shakespeare's Hamlet at the Barbican Theatre.
+    
+                        Cumberbatch's television work includes appearances in Silent Witness (2002) and Fortysomething (2003) before playing Stephen Hawking in the television film Hawking in 2004. He has starred as Sherlock Holmes in the series Sherlock since 2010. He has also headlined Tom Stoppard's adaptation of Parade's End (2012), The Hollow Crown: The Wars of the Roses (2016) and Patrick Melrose (2018). In film, Cumberbatch has starred in Amazing Grace (2006) as William Pitt the Younger, Star Trek Into Darkness (2013) as Khan, 12 Years a Slave (2013) as William Prince Ford, The Fifth Estate (2013) as Julian Assange and The Imitation Game (2014) as Alan Turing. From 2012 to 2014, through voice and motion capture, he played the characters of Smaug and the Necromancer in The Hobbit film series. Cumberbatch portrays the Marvel Comics character Dr. Stephen Strange in the Marvel Cinematic Universe, appearing in Doctor Strange (2016), Thor: Ragnarok (2017), Avengers: Infinity War (2018) and Avengers: Endgame (2019).
+                        
+                        Cumberbatch has received numerous awards and nominations for acting including three Laurence Olivier Award nominations, winning Best Actor in a Play for Frankenstein. He has also received six Primetime Emmy Award nominations, winning Outstanding Lead Actor in a Miniseries or a Movie for Sherlock. His performance in The Imitation Game earned him an Academy Award nomination for Best Actor. In addition, he has received seven BAFTA nominations, winning Best Leading Actor for Patrick Melrose, five Screen Actors Guild Award nominations and two Golden Globe Award nominations among others. In 2014, Time magazine included him in its annual Time 100 as one of the "Most Influential People in the World". He was appointed with a Commander of the Order of the British Empire by Queen Elizabeth II in June 2015 for his services to the performing arts and to charity. 
+                </p>
+            </div>        
+            <div class="post">
+                    <h1>My Seventh Post</h1>
+                <h2><a name="Hawkeye"></a>Jeremy Renner</h2>
+                <p>
+                        Jeremy Lee Renner (born January 7, 1971)[1][2][3] is an American actor. He appeared largely in independent films such as Dahmer (2002) and Neo Ned (2005). Renner earned supporting roles in bigger films, such as S.W.A.T. (2003) and 28 Weeks Later (2007). Renner was nominated for the Academy Award for Best Actor for his performance in The Hurt Locker (2008) and for the Academy Award for Best Supporting Actor for his much-praised performance in The Town (2010).
+    
+                        Renner plays Hawkeye in the Marvel Cinematic Universe films Thor (2011), The Avengers (2012), Avengers: Age of Ultron (2015), Captain America: Civil War (2016) and Avengers: Endgame (2019). He also appeared in Mission: Impossible – Ghost Protocol (2011), The Bourne Legacy (2012), Hansel and Gretel: Witch Hunters (2013), American Hustle (2013), Mission: Impossible – Rogue Nation (2015) and Arrival (2016). In 2002, Renner starred in Dahmer as the eponymous serial killer Jeffrey Dahmer. He found the non-fiction role a challenge to cope with after he had finished shooting the film, knowing that Dahmer murdered seventeen victims.[17] His performance was well received, and he gained a nomination for the Independent Spirit Award for Best Lead Male. He also appeared in Pink's 2003 music video for her song "Trouble" as a Bad Boy Sheriff.[18] Renner went on to appear in S.W.A.T.[19] as the former police partner of Colin Farrell's character in 2003 and The Heart Is Deceitful Above All Things[20] in 2004. 
+                </p>
+            </div>
+            <div class="post">
+                    <h1>My Eight Post</h1>
+                <h2><a name="Antman"></a>Paul Rudd</h2>
+                <p>
+                        Paul Stephen Rudd (born April 6, 1969) is an American actor, comedian, writer, and film producer. Rudd studied theatre at the University of Kansas and the American Academy of Dramatic Arts, before making his acting debut in 1992 with NBC's drama series Sisters. He is known for his starring roles in the films Clueless (1995), Romeo + Juliet (1996), Wet Hot American Summer (2001), Anchorman: The Legend of Ron Burgundy (2004), The 40-Year-Old Virgin (2005), Knocked Up (2007), Role Models (2008), I Love You, Man (2009), This Is 40 (2012), The Perks of Being a Wallflower (2012), Anchorman 2: The Legend Continues (2013), The Fundamentals of Caring (2016), Mute (2018), and Ideal Home (2018). Beginning in 2015, Rudd has played Scott Lang/Ant-Man in the Marvel Cinematic Universe, appearing in Ant-Man (2015), Captain America: Civil War (2016), Ant-Man and the Wasp (2018), and Avengers: Endgame (2019).
+    
+                        In addition to his film career, Rudd has appeared in numerous television shows, including the NBC sitcom Friends as Mike Hannigan, along with guest roles on Tim and Eric Awesome Show, Great Job! and Parks and Recreation (as businessman Bobby Newport) and hosting Saturday Night Live. Rudd received a star on the Hollywood Walk of Fame on July 1, 2015.[1] Rudd made his acting debut in 1992 with the television drama Sisters where he played Kirby Quimby Philby. In 1994, he appeared in Wild Oats for six episodes. Rudd left Sisters in 1995 to appear in the comedy film Clueless with Alicia Silverstone.[29] He also appeared in Halloween: The Curse of Michael Myers, William Shakespeare's Romeo + Juliet, The Locusts, Overnight Delivery, The Object of My Affection, and 200 Cigarettes.[29] He was part of the cast of the 1999 film The Cider House Rules that received a SAG nomination for Outstanding Performance by a Cast in a Motion Picture. 
+                </p>
+            </div>
+            <div class="post">
+                    <h1>My Ninth Post</h1>
+                <h2><a name="loki"></a>Tom Hiddleston</h2>
+                <p>
+                        Thomas William Hiddleston (born 9 February 1981) is an English actor, film producer and musician. At the beginning of his career, he appeared in West End theatre productions of Cymbeline (2007) and Ivanov (2008). He won the Laurence Olivier Award for Best Newcomer in a Play for his role in Cymbeline and was also nominated for the same award for his role as Cassio in Othello.
+    
+                        He came to wider public attention when cast as Loki in the Marvel Cinematic Universe, appearing in Thor (2011), The Avengers (2012), Thor: The Dark World (2013), Thor: Ragnarok (2017), Avengers: Infinity War (2018), and Avengers: Endgame (2019). In 2011, he won the Empire Award for Best Male Newcomer and was nominated for the BAFTA Rising Star Award. Hiddleston has also appeared in Steven Spielberg's War Horse (2011), The Deep Blue Sea (2011), Woody Allen's romantic comedy Midnight in Paris (2011), the 2012 BBC series Henry IV and Henry V, and the romantic vampire film Only Lovers Left Alive (2013).
+                        
+                        In late 2013 and early 2014, Hiddleston starred as the title character in the Donmar Warehouse production of Coriolanus, winning the Evening Standard Theatre Award for Best Actor. In 2015, he starred in Guillermo del Toro's Crimson Peak, Ben Wheatley's High Rise, and played the troubled country music singer Hank Williams in the biopic I Saw The Light.
+                        
+                        In 2016, he starred in and was an executive producer of the AMC / BBC limited series The Night Manager, for which he received two Primetime Emmy Award nominations for Outstanding Lead Actor in a Limited Series or Movie and Outstanding Limited Series, and won his first Golden Globe Award for Best Actor – Miniseries or Television Film. 
+                </p>
+            </div>
+            <div class="post">
+                    <h1>My Tenth Post</h1>
+                <h2><a name="Falcon"></a>Anthony Mackie</h2>
+                <p>
+                        Anthony Dwane Mackie (born September 23, 1978)[1][2][3] is an American actor who has been featured in films, television series and Broadway and Off-Broadway plays, including Ma Rainey's Black Bottom, Drowning Crow, McReele, A Soldier's Play and Carl Hancock Rux's Talk, for which he won an Obie Award in 2002.
+    
+                        In 2002, he was featured in Eminem's film debut, 8 Mile. He was nominated for Independent Spirit Award for Best Actor for his role in Brother to Brother.[4] His second nomination was for Best Supporting Actor at the 2009 Independent Spirit Awards for his role in The Hurt Locker.
+                        
+                        He achieved global recognition with his portrayal of Falcon in the Marvel Cinematic Universe, making his first appearance in Captain America: The Winter Soldier (2014) and later in Avengers: Age of Ultron (2015), Ant-Man (2015), Captain America: Civil War (2016), Avengers: Infinity War (2018), and Avengers: Endgame (2019), as well as the upcoming Disney+-exclusive limited series The Falcon and The Winter Soldier.
+                        
+                        In May 2016, he co-starred in the HBO TV film All the Way, and will star in the second season of Netflix's Altered Carbon in 2020. 
+                </p>
+            </div>
     </body>
 </html>
